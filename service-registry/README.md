@@ -5,7 +5,9 @@
     127.0.0.1		service-registry2
     127.0.0.1		service-registry1
 
-## EUREKA URL ##
+## EUREKA ##
+Eureka we run in peer mode(2 servers), so it will act both as Client and Server.
+
 #### Service Registry 1 ####
 -Dspring.profiles.active=service-registry1 
 
