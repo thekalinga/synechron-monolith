@@ -53,6 +53,10 @@ subprojects {
     implementation 'org.apache.logging.log4j:log4j-jul'
     implementation "com.lmax:disruptor:${project.'lmax-disruptor.version'}"
 
+    //swagger
+    implementation 'io.springfox:springfox-swagger2:2.9.2'
+    implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+
     // NOTE: Due to a bug as of now mapstruct needs to go before lombok
     // https://github.com/mapstruct/mapstruct/issues/1581
 
